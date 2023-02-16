@@ -97,12 +97,11 @@ ul li {
   background-color: #0069d9;
   cursor: pointer;
 }
+
 /* Styles for the active state */
 .my-button:active {
   background-color: #b5c6d8;
 }
-
-
 
 ul li a i {
   color: black;
