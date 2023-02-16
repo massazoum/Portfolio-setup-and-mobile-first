@@ -10,8 +10,6 @@ body {
   background-image: url('font.png');
   background-size: cover;
   background-repeat: no-repeat;
-  
-  /* Neutrals/N0 */
 }
 
 .top-navigation {
@@ -99,7 +97,6 @@ ul li {
   background-color: #0069d9;
   cursor: pointer;
 }
-
 /* Styles for the active state */
 .my-button:active {
   background-color: #b5c6d8;
