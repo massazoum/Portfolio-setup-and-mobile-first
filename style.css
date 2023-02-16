@@ -10,6 +10,7 @@ body {
   background-image: url('font.png');
   background-size: cover;
   background-repeat: no-repeat;
+  
   /* Neutrals/N0 */
 }
 
@@ -30,6 +31,15 @@ body {
   left: 0;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+}
+
 .nav-bar ul {
   display: flex;
   list-style: none;
@@ -38,6 +48,11 @@ body {
 
 .nav-bar ul li {
   padding-right: 10px;
+}
+
+.CONNECT a {
+  list-style: none;
+  text-decoration: none;
 }
 
 .nav-bar ul li a {
@@ -70,11 +85,6 @@ body {
   font-size: large;
 }
 
-.CONNECT a {
-  list-style: none;
-  text-decoration: none;
-}
-
 /* Define the styles for the normal state */
 .my-button {
   background-color: orange;
@@ -95,14 +105,7 @@ body {
   background-color: #b5c6d8;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-}
 
-ul li {
-  padding: 10px;
-}
 
 ul li a i {
   color: black;
