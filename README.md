@@ -1,5 +1,3 @@
-Portfolio-setup-and-mobile-first
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio (Mobile First)
