@@ -26,9 +26,15 @@ body {
   padding-top: 15px;
   padding-right: 25px;
 }
+
 i {
   transition: 0.5s;
 }
+
+ul li a i {
+  color: black;
+}
+
 i:hover {
   color: aqua;
 }
@@ -87,9 +93,7 @@ ul li {
   background-color: #b5c6d8;
 }
 
-ul li a i {
-  color: black;
-}
+
 
 @media (min-width: 768px) {
   body {
