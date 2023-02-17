@@ -48,6 +48,16 @@ ul li {
   padding: 10px;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  max-width: 450px;
+  padding-left: 50px;
+}
+
 .connect a {
   color: #0069d9;
   list-style: none;
@@ -57,16 +67,6 @@ ul li {
 
 .connect:hover {
   color: #11076f;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 100vh;
-  justify-content: center;
-  max-width: 450px;
-  padding-left: 50px;
 }
 
 p {
@@ -100,8 +100,4 @@ section p {
     font-size: 18px;
     line-height: 1.7rem;
   }
-}
-
-.my-button:active {
-  background-color: #b5c6d8;
 }
