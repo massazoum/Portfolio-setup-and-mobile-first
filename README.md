@@ -51,7 +51,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[Portfolio-setup-and-mobile-first]**
  is a first portfolio project at microverse 
@@ -86,19 +85,10 @@ Run git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
 - GitHub: [@massazoum](https://github.com/massazoum)
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-
-## ⭐️ Show your support <a name="support"></a>
-
-> If you like this project reach out me ...
-> 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
