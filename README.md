@@ -31,11 +31,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio] <a name="about-project"></a>
+# 📖 portfolio <a name="about-project"></a>
 
 **portfolio** is my web site where I show case my project ...
 
 ## 🛠 Built With <a name="built-with"></a>
+<ul>
+  <li>HTML</li> 
+  <li>CSS</li>
+</ul>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -62,15 +66,11 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **It show case my project**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -89,29 +89,12 @@ In order to run this project you need:
 - github
 - laptop
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
   <li> cd zzz
   <li> git clone git@github.com:myaccount/my-project.git
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
@@ -151,10 +134,7 @@ This website has been completed and deployed
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/massa-zoumanigui-1aba4525a)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -164,8 +144,6 @@ This website has been completed and deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -174,13 +152,9 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -189,8 +163,6 @@ I would like to thank my coding partner muh for his helping ...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
