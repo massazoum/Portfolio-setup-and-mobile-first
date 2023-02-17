@@ -101,6 +101,9 @@ Example command:
 
 Clone this repository to your desired folder:
 
+  <li> cd zzz
+  <li> git clone git@github.com:myaccount/my-project.git
+
 <!--
 Example commands:
 
@@ -114,46 +117,29 @@ Example commands:
 
 Install this project with:
 
+<li> Open cloned folder on VSCODE and run the following codes on the terminal window
+<li> Run npm init -y 
+<li> Run npm install --save-dev hint@7.x
+<li> Run npx hint .
+<li> Run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+<li> Run npx stylelint "**/*.{css,scss}"
 <!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-<!--
-Example command:
+#### To run the project, execute the following command:
+To run the project, open the following link:
 
-```sh
-  rails server
-```
---->
+  - git clone
+  - npm install or npm init -y
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+This website has been completed and deployed
 
 ### Deployment
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- [PortFolio](https://massazoum.github.io/Portfolio-setup-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
