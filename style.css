@@ -1,40 +1,35 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  position: absolute;
-  top: 1px;
-  background-image: url("font.png");
-  background-size: cover;
+  background-image: url('font.png');
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 1px;
 }
 
-.top-navigation {
+header {
+  /* Use single quotes for string values */
+  box-shadow: 0 1px 10px -5px grey;
+  color: #0069d9;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  box-shadow: 0 1px 10px -5px grey;
   position: fixed;
-  color: #0069d9;
+  width: 100%;
 }
 
-#menu {
-  padding-top: 15px;
-  padding-right: 25px;
+a {
+  color: #172b4d;
 }
 
 i {
   transition: 0.5s;
 }
-
-ul li a i {
-  color: black;
-}
-
 i:hover {
   color: aqua;
 }
@@ -48,34 +43,39 @@ ul li {
   padding: 10px;
 }
 
-.CONNECT a {
+.connect a {
+  color: #0069d9;
   list-style: none;
   text-decoration: none;
-  color: #0069d9;
   transition: 1s;
 }
 
-.CONNECT:hover {
+.connect:hover {
   color: #11076f;
 }
 
-.about-me {
+section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-wrap: wrap;
   height: 100vh;
+  justify-content: center;
   max-width: 450px;
   padding-left: 50px;
 }
 
-.about-me h1 {
-  font-size: x-large;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+p {
+  color: #344563;
+  font-family: sans-serif;
 }
 
-.about-me p {
+section h1 {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+section p {
   font-size: large;
 }
 
@@ -83,27 +83,25 @@ ul li {
   margin: 1px;
 }
 
-/* Styles for the hover state */
-.my-button:hover {
-  background-color: #0069d9;
-  cursor: pointer;
+@media screen and (min-width: 375px) {
+  body {
+    font-size: 17px;
+    line-height: 1.8rem;
+  }
 }
 
-/* Styles for the active state */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+    line-height: 1.7rem;
+  }
+}
+
 .my-button:active {
   background-color: #b5c6d8;
 }
 
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-    line-height: 1.7;
-  }
+ul li a i {
+  color: black;
 }
 
-@media (min-width: 375px) {
-  body {
-    font-size: 17px;
-    line-height: 1.8;
-  }
-}
