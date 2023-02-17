@@ -51,7 +51,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is a Microverse Portfolio Project. I have created it with Mobile First approach. I have created it with HTML CSS . In CSS I used mainly FlexBox and for layout to make it responsive.
 
 **[Portfolio-setup-and-mobile-first]**
  is a first portfolio project at microverse 
