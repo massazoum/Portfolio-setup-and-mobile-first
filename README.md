@@ -38,7 +38,6 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -57,14 +56,12 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[Portfolio-setup-and-mobile-first]** is a first porfolio project
+**[Portfolio-setup-and-mobile-first]**
+ is a first portfolio project at microverse 
 
-## 🛠 Built With <a name="built-with">html</a>
+## 🛠 Built With 
+<a name="built-with">html</a>
 <a name="built-with">css</a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <!-- LIVE DEMO -->
 
@@ -80,17 +77,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
-git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
+Run git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
 
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors">Massazoumanigui</a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -100,22 +93,21 @@ git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project reach out me ...
-
+> If you like this project reach out me ...
+> 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements">HTML CSS</a>
       
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank everyone to see that
+> .I would like to thank everyone to see that
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
