@@ -65,10 +65,6 @@ section {
   transition: 1s;
 }
 
-.connect:hover {
-  color: #11076f;
-}
-
 p {
   color: #344563;
   font-family: sans-serif;
