@@ -41,9 +41,6 @@ After you're finished please remove all the comments and instructions!
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -67,9 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://massazoum.github.io/Portfolio-setup-and-mobile-first/)
+> https://massazoum.github.io/Portfolio-setup-and-mobile-first/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,6 +73,7 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+
 Run git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
 
 
