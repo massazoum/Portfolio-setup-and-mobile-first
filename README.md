@@ -93,7 +93,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  <li> cd zzz
+  <li> cd my-folder
   <li> git clone git@github.com:myaccount/my-project.git
 
 ### Install
