@@ -125,8 +125,6 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
-
 <!--
 Example command:
 
@@ -149,8 +147,6 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
-
 <!--
 Example:
 
@@ -161,11 +157,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Massa zoumanigui**
 
@@ -200,17 +192,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project reach out me ...
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner...
+I would like to thank my coding partner muh for his helping ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
