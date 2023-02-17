@@ -26,7 +26,12 @@ body {
   padding-top: 15px;
   padding-right: 25px;
 }
-
+i {
+  transition: 0.5s;
+}
+i:hover {
+  color: aqua;
+}
 ul {
   display: flex;
   list-style: none;
