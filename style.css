@@ -13,13 +13,9 @@ body {
 }
 
 .top-navigation {
-  display: block;
-}
-
-.nav-bar {
-  display: block;
+ display: block;
   flex-direction: row;
-  padding: 26px 80px;
+ justify-content: space-between;
   width: 100%;
   height: 72px;
   z-index: 1;
@@ -27,6 +23,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+nav {
+  
 }
 
 ul {
@@ -38,31 +38,9 @@ ul li {
   padding: 10px;
 }
 
-.nav-bar ul {
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
-}
-
-.nav-bar ul li {
-  padding-right: 10px;
-}
-
 .CONNECT a {
   list-style: none;
   text-decoration: none;
-}
-
-.nav-bar ul li a {
-  list-style: none;
-  text-decoration: none;
-  font-size: large;
-  color: rgb(67, 52, 205);
-  transition: 1s;
-}
-
-.nav-bar ul li a:hover {
-  font-size: x-large;
 }
 
 .about-me {
