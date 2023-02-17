@@ -38,6 +38,7 @@ ul li a i {
 i:hover {
   color: aqua;
 }
+
 ul {
   display: flex;
   list-style: none;
@@ -92,8 +93,6 @@ ul li {
 .my-button:active {
   background-color: #b5c6d8;
 }
-
-
 
 @media (min-width: 768px) {
   body {
