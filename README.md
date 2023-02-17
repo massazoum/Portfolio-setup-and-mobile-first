@@ -1,47 +1,29 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Contributing
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+   
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>My portfolio</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -49,61 +31,176 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
+# 📖 [portfolio] <a name="about-project"></a>
 
-> This is a Microverse Portfolio Project. I have created it with Mobile First approach. I have created it with HTML CSS . In CSS I used mainly FlexBox for layout to make it responsive.
+**portfolio** is my web site where I show case my project ...
 
-**[Portfolio-setup-and-mobile-first]**
- is a first portfolio project at microverse 
+## 🛠 Built With <a name="built-with"></a>
 
-## 🛠 Built With 
-<a name="built-with">html</a>
-<a name="built-with">css</a>
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">html</a></li>
+    <li><a href="#">css</a></li>
+    
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">n/a</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">n/a</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **It show case my project**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> https://massazoum.github.io/Portfolio-setup-and-mobile-first/
+- [Live Demo Link](https://massazoum.github.io/Portfolio-setup-and-mobile-first)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-Run git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
+### Prerequisites
 
+In order to run this project you need:
+- vs code 
+- github
+- laptop
 
-<!-- AUTHORS -->
+<!--
+Example command:
 
-## 👥 Authors <a name="authors">Massazoumanigui</a>
+```sh
+ gem install rails
+```
+ -->
 
-👤 **Author1**
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Massa zoumanigui**
 
 - GitHub: [@massazoum](https://github.com/massazoum)
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/massa-zoumanigui-1aba4525a)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Animation**
+- [ ] **Social media icons**
+- [ ] **Responsive**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project reach out me ...
-> 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements">HTML CSS</a>
-      
-> .I would like to thank everyone to see that
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank my coding partner muh for his helping ...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
