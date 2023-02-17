@@ -7,26 +7,24 @@
 body {
   position: absolute;
   top: 1px;
-  background-image: url('font.png');
+  background-image: url("font.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .top-navigation {
- display: block;
+  display: flex;
   flex-direction: row;
- justify-content: space-between;
+  justify-content: space-between;
   width: 100%;
-  height: 72px;
-  z-index: 1;
   box-shadow: 0 1px 10px -5px grey;
   position: fixed;
-  top: 0;
-  left: 0;
+  color: #0069d9;
 }
 
-nav {
-  
+#menu {
+  padding-top: 15px;
+  padding-right: 25px;
 }
 
 ul {
@@ -41,14 +39,22 @@ ul li {
 .CONNECT a {
   list-style: none;
   text-decoration: none;
+  color: #0069d9;
+  transition: 1s;
+}
+
+.CONNECT:hover {
+  color: #11076f;
 }
 
 .about-me {
-  position: fixed;
-  width: auto;
-  height: auto;
-  top: 50%;
-  left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  max-width: 450px;
+  padding-left: 50px;
 }
 
 .about-me h1 {
@@ -61,13 +67,8 @@ ul li {
   font-size: large;
 }
 
-/* Define the styles for the normal state */
-.my-button {
-  background-color: orange;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+.item {
+  margin: 1px;
 }
 
 /* Styles for the hover state */
@@ -88,13 +89,13 @@ ul li a i {
 @media (min-width: 768px) {
   body {
     font-size: 18px;
-    line-height: 2;
+    line-height: 1.7;
   }
 }
 
 @media (min-width: 375px) {
   body {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8;
   }
 }
