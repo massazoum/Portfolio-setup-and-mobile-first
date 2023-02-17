@@ -30,6 +30,11 @@ a {
 i {
   transition: 0.5s;
 }
+
+ul li a i {
+  color: black;
+}
+
 i:hover {
   color: aqua;
 }
@@ -101,7 +106,4 @@ section p {
   background-color: #b5c6d8;
 }
 
-ul li a i {
-  color: black;
-}
 
