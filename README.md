@@ -106,7 +106,6 @@ Install this project with:
 <li> Run npx hint .
 <li> Run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 <li> Run npx stylelint "**/*.{css,scss}"
-<!--
 
 ### Usage
 
