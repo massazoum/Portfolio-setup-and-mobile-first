@@ -13,8 +13,6 @@ body {
 }
 
 header {
-  /* Use single quotes for string values */
-  box-shadow: 0 1px 10px -5px grey;
   color: #0069d9;
   display: flex;
   flex-direction: row;
