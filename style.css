@@ -76,7 +76,8 @@ section {
 
 section h1 {
   font-size: 40px;
-  font-weight: 700px;
+  line-height: 1.8rem;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
 }
 
