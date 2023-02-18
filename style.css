@@ -31,16 +31,17 @@ i {
   transition: 0.5s;
 }
 
-.logo{
+.logo {
   color: var(--primary-color);
-  padding-right: 30px;
+  padding-left: 30px;
   font-size: 1.4rem;
 }
 
-#menu{
+#menu {
   padding-right: 30px;
   color: var(--primary-color);
 }
+
 ul li a i {
   color: black;
 }
@@ -83,7 +84,7 @@ section h1 {
 
 section p {
   font-size: 16px;
-  color:#344563;
+  color: #344563;
   font-family: 'Poppins', sans-serif;
 }
 
