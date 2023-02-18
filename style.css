@@ -30,12 +30,14 @@ i {
 }
 
 .logo {
+  padding-top: 10px;
   color: var(--primary-color);
   padding-left: 30px;
   font-size: 1.4rem;
 }
 
 #menu {
+  padding-top: 10px;
   padding-right: 30px;
   color: var(--primary-color);
 }
