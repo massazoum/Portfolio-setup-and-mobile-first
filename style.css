@@ -31,6 +31,15 @@ i {
   transition: 0.5s;
 }
 
+.logo{
+  color: var(--primary-color);
+  padding-right: 30px;
+}
+
+#menu{
+  padding-right: 30px;
+  color: var(--primary-color);
+}
 ul li a i {
   color: black;
 }
