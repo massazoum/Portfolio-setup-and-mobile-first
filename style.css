@@ -65,19 +65,16 @@ section {
   transition: 1s;
 }
 
-p {
-  color: #344563;
-  font-family: sans-serif;
-}
-
 section h1 {
-  font-family: sans-serif;
-  font-size: x-large;
-  font-weight: bold;
+  h1 font-size: 40px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
 }
 
 section p {
-  font-size: large;
+  font-size: 16px;
+  color:#344563;
+  font-family: 'Poppins', sans-serif;
 }
 
 .item {
