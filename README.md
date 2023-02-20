@@ -43,14 +43,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">html</a></li>
-    <li><a href="#">css</a></li>
-    
-  </ul>
-</details>
 
 <details>
   <summary>Server</summary>
@@ -67,18 +59,6 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-- **It show case my project**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://massazoum.github.io/Portfolio-setup-and-mobile-first)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -99,30 +79,12 @@ Clone this repository to your desired folder:
   <li> git clone git@github.com:myaccount/my-project.git
 
 
-### Install
-
-Install this project with:
-
-<li> Open cloned folder on VSCODE and run the following codes on the terminal window
-<li> Run npm init -y 
-<li> Run npm install --save-dev hint@7.x
-<li> Run npx hint .
-<li> Run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-<li> Run npx stylelint "**/*.{css,scss}"
-
-### Usage
-
-
-#### To run the project, execute the following command:
-To run the project, open the following link:
-
   - git clone
   - npm install or npm init -y
 
 ### Run tests
 
 This website has been completed and deployed
-
 
 ### Deployment
 
@@ -148,7 +110,6 @@ This website has been completed and deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -157,17 +118,7 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank my coding partner muh for his helping ...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
