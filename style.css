@@ -1,11 +1,8 @@
 body {
-  background-image: url(font1.png);
-  background-position-y: top;
-  background-size: contain;
-  background-repeat: no-repeat;
   top: 1px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  background: hsl(220, 16%, 96%);
 }
 
 header {
@@ -47,7 +44,8 @@ i {
 }
 
 .fab-ba li {
-  padding-left: 10px;
+  margin-left: 5px;
+  margin-right: 15px;
 }
 
 .item ul {
@@ -67,6 +65,7 @@ i {
   justify-content: center;
   max-width: 450px;
   padding-left: 50px;
+  border-bottom-left-radius: 30px;
 }
 
 .CONNECT a {
@@ -101,7 +100,6 @@ p {
 .main {
   display: grid;
   grid-row-gap: 15vh;
-  background-color: #c3c1c0cd;
   grid-row-start: 15vh;
 }
 
@@ -114,12 +112,23 @@ p {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  border-radius: 30px;
   background-size: cover;
   height: 65vh;
   width: 90%;
   margin: 5%;
-  padding: 5px;
+  padding: 20px;
+  border: 1px solid hwb(223 87% 10%);
+  border-radius: 16px;
+}
+
+.font-div {
+  background-image: url(font1.png);
+  background-size: cover;
+  width: 100%;
+  border-bottom-left-radius: 100px;
+  margin-left: -10px;
+  padding-right: 20px;
+  margin-bottom: 15vh;
 }
 
 .img-1 {
@@ -185,9 +194,11 @@ p {
   color: #396df2;
   font-size: 17px;
   line-height: 24px;
-  font-weight: bold;
   border: 1px solid;
   border-color: #162ae3;
+  background-color: hsl(0, 0%, 100%);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 .about-me {
@@ -231,11 +242,17 @@ p {
 }
 
 .bnt-get {
-  width: auto;
-  height: auto;
-  background-color: #6b8bde;
-  padding: 10px;
-  border-radius: 10px;
+  margin-top: 0;
+  background: hsl(0, 0%, 100%);
+  padding: 5px;
+  border-radius: 5px;
+  border-color: hsl(223, 88%, 59%);
+  color: hsl(223, 88%, 59%);
+  font-family: 'Poppins'sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
 }
 
 .first-about {
@@ -269,10 +286,10 @@ p {
   list-style: none;
   width: 60px;
   height: 14vh;
-  background-color: bisque;
+  background: hsl(240, 14%, 97%);
+  border-radius: 8px;
   margin: 10px;
   padding: 0 20px;
-  border-radius: 10px;
   padding-top: 10px;
 }
 
@@ -310,7 +327,9 @@ p {
     background-color: white;
     border-radius: 30px;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
+    width: 80%;
+    margin-right: 10%;
   }
 
   .img-1 {
@@ -337,12 +356,11 @@ p {
   .list {
     display: flex;
     list-style: none;
-    width: 80%;
+    width: 95%;
     height: 8vh;
-    background-color: bisque;
-    margin: 10px;
+    background: hsl(240, 14%, 97%);
+    border-radius: 8px;
     padding: 0 20px;
-    border-radius: 10px;
     padding-top: 10px;
   }
 
@@ -361,18 +379,20 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 12px;
     gap: 10px;
-    width: 100px;
-    height: 8vh;
+    width: 122px;
+    height: 48px;
     border-radius: 8px;
-    color: #0069d9;
-    font-size: 14px;
+    color: #396df2;
+    font-size: 17px;
     line-height: 24px;
-    font-weight: bold;
     border: 1px solid;
     border-color: #162ae3;
-    margin-top: -10px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
   }
 
   .list1 {
@@ -380,7 +400,7 @@ p {
     justify-content: space-between;
     list-style: none;
     width: 80%;
-    height: 10vh;
+    height: 8vh;
     margin: 10px;
     padding: 0 20px;
     border-radius: 10px;
@@ -403,9 +423,16 @@ p {
 
   .bnt-get {
     margin-top: 0;
-    background-color: #6b8bde;
-    padding: 10px;
-    border-radius: 10px;
+    background: hsl(0, 0%, 100%);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: hsl(223, 88%, 59%);
+    color: hsl(223, 88%, 59%);
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
   }
 
   .bnt-div {
