@@ -220,6 +220,13 @@ p {
   margin-top: -10px;
 }
 
+.div-CONNECT2 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .CONNECT2 {
   margin-top: 1vh;
 }
