@@ -39,6 +39,8 @@
 <ul>
   <li>HTML</li> 
   <li>CSS</li>
+  <li>flexbox</li>
+  <li>CSS Grid</li>
 </ul>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -48,6 +50,7 @@
   <ul>
     <li><a href="#">html</a></li>
     <li><a href="#">css</a></li>
+     <li><a href="#"></a></li>
     
   </ul>
 </details>
@@ -145,6 +148,7 @@ This website has been completed and deployed
 - [ ] **Animation**
 - [ ] **Social media icons**
 - [ ] **Responsive**
+- [ ] **include Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +169,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner muh for his helping ...
+I would like to thank my mister peter  for his helping ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
