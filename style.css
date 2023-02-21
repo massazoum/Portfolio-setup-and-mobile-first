@@ -8,12 +8,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.finish {
-  padding: 0%;
-  height: 100vh;
-  width: 200%;
-}
-
 header {
   color: #0069d9;
   display: flex;
@@ -364,23 +358,23 @@ p {
         padding: 0;
       }
 
-      .see-project {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        gap: 10px;
-        width: 100px;
-        height: 8vh;
-        border-radius: 8px;
-        color:  #0069d9;
-        font-size: 14px;
-        line-height: 24px;
-        font-weight: bold;
-        border: 1px solid;
-        border-color: #162ae3;
-        margin-top: -10px; 
+  .see-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    width: 100px;
+    height: 8vh;
+    border-radius: 8px;
+    color:  #0069d9;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: #162ae3;
+    margin-top: -10px; 
       }
 
       .list1 {
