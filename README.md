@@ -39,10 +39,11 @@
 <ul>
   <li>HTML</li> 
   <li>CSS</li>
+  <li>flexbox</li>
+  <li>CSS Grid</li>
 </ul>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>Server</summary>
@@ -107,6 +108,7 @@ This website has been completed and deployed
 - [ ] **Animation**
 - [ ] **Social media icons**
 - [ ] **Responsive**
+- [ ] **include Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
