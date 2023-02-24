@@ -454,7 +454,7 @@ p {
     background-color: white;
     border-radius: 30px;
     background-size: cover;
-    height: 140vh;
+    height: auto;
     width: 80%;
     margin-right: 10%;
   }
