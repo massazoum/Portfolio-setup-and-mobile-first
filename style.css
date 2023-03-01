@@ -662,21 +662,21 @@ p {
 
   .inp-text {
     height: 25vh;
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
+    background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(198, 16%, 84%);
     border-radius: 8px;
   }
 
   .inp-name {
-    background: #FFFFFF;  
-    border: 1px solid #CFD8DC;
+    background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(198, 16%, 84%);
     border-radius: 8px;
     height: 48px;
   }
 
   .inp-email {
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
+    background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(198, 16%, 84%);
     border-radius: 8px;
     height: 48px;
   }
@@ -728,14 +728,15 @@ p {
     width: 142px;
     height: 48px;
   }
+
   .submit0:active {
-    color:white;
+    color: white;
     border-color: white;
     background: rgb(64, 83, 252);
   }
 
   .submit0:hover {
-    color:white;
+    color: white;
     border-color: white;
     background: hsl(234, 100%, 69%);
   }
