@@ -77,7 +77,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   <li> cd my-folder
-  <li> git clone git@github.com:myaccount/my-project.git
+  <li> git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
 
 
   - git clone
@@ -106,7 +106,6 @@ This website has been completed and deployed
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Animation**
-- [ ] **Social media icons**
 - [ ] **Responsive**
 - [ ] **include Javascript**
 
