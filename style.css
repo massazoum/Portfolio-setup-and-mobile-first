@@ -728,4 +728,15 @@ p {
     width: 142px;
     height: 48px;
   }
+  .submit0:active {
+    color:white;
+    border-color: white;
+    background: rgb(64, 83, 252);
+  }
+
+  .submit0:hover {
+    color:white;
+    border-color: white;
+    background: hsl(234, 100%, 69%);
+
 }
