@@ -33,12 +33,12 @@
 
 # 📖 portfolio <a name="about-project"></a>
 
-**portfolio** is my web site where I show case my project ...
+This PR updates the responsive desktop design for our website to improve its usability on larger screens. The goal of this update is to provide a better user experience for desktop users and ensure that our website looks great on all devices
 
 ## 🛠 Built With <a name="built-with"></a>
 <ul>
-  <li>HTML</li> 
-  <li>CSS</li>
+  <li>HTML5</li> 
+  <li>CSS3</li>
   <li>flexbox</li>
   <li>CSS Grid</li>
 </ul>
@@ -61,6 +61,11 @@
 
 ### Key Features <a name="key-features"></a>
 
+- Updated the HTML and CSS files to improve the responsiveness of the website on larger screens.
+- Implemented a new layout technique to better optimize the website for desktop screens.
+- Improved the typography and spacing of the website to enhance its visual appeal.
+- I also used CSS media queries to adjust the layout of the website based on the screen size.
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -76,10 +81,9 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  <li> cd my-folder
-  <li> git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
-
-
+  - cd my-folder
+  - git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
+  
   - git clone
   - npm install or npm init -y
 
@@ -89,6 +93,7 @@ This website has been completed and deployed
 
 ### Deployment
 
+  The changes will be deployed to the website through our standard deployment process.
 - [PortFolio](https://massazoum.github.io/Portfolio-setup-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
