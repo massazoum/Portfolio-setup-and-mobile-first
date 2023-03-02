@@ -201,6 +201,10 @@ p {
   font-style: normal;
 }
 
+.font-write {
+  background-color: white;
+}
+
 @media (min-width: 768px) {
   .header-desktop {
     display: flex;
