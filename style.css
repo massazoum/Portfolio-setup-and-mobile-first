@@ -267,12 +267,28 @@ p {
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: transform 0.3s ease-in-out;
   }
 
   .header-desktop nav {
     display: flex;
     justify-content: end;
     margin-right: 60px;
+  }
+
+  img {
+    animation: slide-in 2s ease forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
   }
 
   .first-template h1 {
