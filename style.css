@@ -630,7 +630,7 @@ p {
     margin-right: 10px;
     padding-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 30px;
     padding-bottom: 10px;
   }
 
@@ -692,7 +692,7 @@ p {
 
   .pos-language {
     padding-top: 2px;
-    margin-left: -10px;
+    margin-left: 5px;
   }
 
   .language-flex {
@@ -1198,6 +1198,7 @@ p {
     margin-top: 0;
     height: auto;
     width: 100%;
+    border-top-left-radius: 100px;
   }
 
   .inp-text {
