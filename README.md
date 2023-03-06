@@ -32,7 +32,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 portfolio <a name="about-project"></a>
-
+This pull is created to deploy my portfolio   " application deploy"
 This PR updates the responsive desktop design for our website to improve its usability on larger screens. The goal of this update is to provide a better user experience for desktop users and ensure that our website looks great on all devices
 
 ## 🛠 Built With <a name="built-with"></a>
