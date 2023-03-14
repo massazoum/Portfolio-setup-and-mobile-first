@@ -847,7 +847,7 @@ p {
   }
 
   .logo {
-    position: absolute;
+    position: fixed;
     top: 10px;
   }
 
