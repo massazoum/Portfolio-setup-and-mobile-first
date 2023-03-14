@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style1.css">
     <head>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-*********************" crossorigin="anonymous">
+       
       </head>
       
     <title>Portfolio</title>
@@ -16,11 +17,28 @@
 <div class="font-div">
     <header>
         <div class="header-mobile">
+            <div class="logoNone">
             <a class="logo">MZ</a>
-            <nav>
-            <i id="menu"  class="fas fa-bars"></i> 
+            </div>
+
+            <nav class="mobile-menu">
+
+                <div class="toggle">
+                    <i  class="fas fa-bars ouvrir"></i> 
+                    <i class="fas fa-times fermer"></i>         
+                </div>
+                <div class="menu">
+                   
+                    <li class="content-liP"><a href="#Portfolio">Portfolio</a></li>
+                    <li class="content-liA"><a href="#About">About</a></li>
+                    <li class="content-liC"><a href="#Contact">Contact</a></li>
+               
+                </div>
             </nav>
+            <div class="dash1"></div>
         </div>
+       
+
 
         <div class="header-desktop">
           <div>  <a class="logo">MZ</a></div>
@@ -41,7 +59,7 @@
 
 
 
-<div class="finish">
+<div id="Portfolio" class="finish">
 
     <div class="first-template">
             <div class="item">
@@ -208,7 +226,7 @@
                    
           
           
-           <section class="about-me" >
+           <section id="About" class="about-me" >
           
              <div class="first-about">
               <div >
@@ -264,7 +282,7 @@
       </div>
         <div class="font-write">
       <div class="font-contact">
-        <section class="contact-form">
+        <section id="Contact" class="contact-form">
 
             <div class="flex-center">
                 <div><h2 class="title-form">Contact me</h2></div>
@@ -291,11 +309,10 @@
             <div class="dash"></div>
         </section>
       </div>
+     
      </div>
 
-
-
-                        
+     <script src="app.js"></script>              
 </body>
 </html>
 

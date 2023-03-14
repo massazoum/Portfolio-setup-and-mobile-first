@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
 body {
   top: 1px;
   box-sizing: border-box;
@@ -96,6 +99,8 @@ p {
   background-color: #ebebff;
   font-size: 15px;
   color: #0069d9;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .div-CONNECT2 {
@@ -850,6 +855,72 @@ p {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+  }
+
+  .toggle {
+    position: relative;
+    display: block;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .open .header-mobile {
+    background-color: hsl(234, 100%, 69%);
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    opacity: 0.93;
+  }
+
+  .open .toggle {
+    color: hsl(0, 0%, 100%);
+  }
+
+  .ouvrir {
+    display: block;
+    position: fixed;
+    right: 10px;
+    margin-right: 40px;
+  }
+
+  .toggle .fermer {
+    display: none;
+  }
+
+  .open .ouvrir {
+    display: none;
+  }
+
+  .open .fermer {
+    display: block;
+    position: absolute;
+    right: 10px;
+    margin-right: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .open .menu {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: start;
+    padding-left: 30px;
   }
 
   .CONNECT a {
@@ -867,6 +938,37 @@ p {
     list-style: none;
     text-decoration: none;
     transition: 1s;
+  }
+
+  .item ul li {
+    padding: 10px;
+  }
+
+  .open .menu li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .framework ul li {
+    padding: 0;
+  }
+
+  .open .menu li {
+    display: flex;
+    justify-self: left;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .open .dash1 {
+    display: block;
+    position: absolute;
+    width: 134px;
+    height: 5px;
+    left: calc(50% - 134px / 2 - 0.5px);
+    bottom: 5px;
+    background: hsl(212, 40%, 8%);
+    border-radius: 10px;
   }
 
   .finish {
@@ -918,10 +1020,6 @@ p {
     display: flex;
     list-style: none;
     margin-left: -50px;
-  }
-
-  .item ul li {
-    padding: 10px;
   }
 
   .text-about {
@@ -1163,10 +1261,6 @@ p {
   .framework ul {
     padding: 0;
     padding-left: 10px;
-  }
-
-  .framework ul li {
-    padding: 0;
   }
 
   .flex-languages {
