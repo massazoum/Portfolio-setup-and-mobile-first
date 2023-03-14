@@ -846,12 +846,17 @@ p {
     font-family: 'Poppins', sans-serif;
   }
 
+  .logo {
+    position: absolute;
+    top: 10px;
+  }
+
   .header-mobile {
     color: #0069d9;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100vh;
     padding-top: 20px;
@@ -861,7 +866,6 @@ p {
     position: relative;
     display: block;
     font-size: 1.4rem;
-    cursor: pointer;
     margin-right: 20px;
   }
 
@@ -1220,6 +1224,34 @@ p {
     border: 1px solid;
     border-color: hsl(223, 88%, 59%);
     color: hsl(223, 88%, 59%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .bnt-get:hover {
+    margin-top: 0;
+    background: hsl(223, 88%, 59%);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: hsl(223, 88%, 59%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .bnt-get:active {
+    margin-top: 0;
+    background: rgb(64, 83, 252);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: hsl(223, 88%, 59%);
+    color: hsl(0, 0%, 100%);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
