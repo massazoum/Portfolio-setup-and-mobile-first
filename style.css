@@ -165,7 +165,7 @@ p {
   border-radius: 5px;
   border-color: hsl(223, 88%, 59%);
   color: hsl(0, 0%, 100%);
-  font-family: 'Poppins'sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -179,7 +179,7 @@ p {
   border-radius: 5px;
   border-color: hsl(223, 88%, 59%);
   color: hsl(0, 0%, 100%);
-  font-family: 'Poppins'sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -609,7 +609,7 @@ p {
     border: 1px solid;
     border-color: hsl(223, 88%, 59%);
     color: hsl(223, 88%, 59%);
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -812,7 +812,7 @@ p {
     border: 1px solid;
     border-color: hsl(223, 88%, 59%);
     color: hsl(234, 100%, 69%);
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1222,7 +1222,7 @@ p {
     border: 1px solid;
     border-color: hsl(223, 88%, 59%);
     color: hsl(223, 88%, 59%);
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1376,7 +1376,7 @@ p {
     border: 1px solid;
     border-color: hsl(223, 88%, 59%);
     color: hsl(234, 100%, 69%);
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
