@@ -46,7 +46,8 @@ p {
 .main {
   display: grid;
   grid-row-gap: 15vh;
-  grid-row-start: 15vh;
+
+  /* grid-row-start: 2; */
 }
 
 .flex-finish {
@@ -419,7 +420,7 @@ p {
     height: 65vh;
     width: 80%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
     border-radius: 16px;
   }
 
@@ -434,9 +435,9 @@ p {
     height: 65vh;
     width: 80%;
     margin: 5%;
-    padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
     border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #c1c7d0;
   }
 
   .Works3 {
@@ -450,7 +451,7 @@ p {
     width: 80%;
     margin: 5%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
     border-radius: 16px;
   }
 
@@ -466,7 +467,7 @@ p {
     width: 80%;
     margin: 5%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
     border-radius: 16px;
   }
 
@@ -1047,7 +1048,7 @@ p {
     margin: 5%;
     margin-right: 10%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
   }
 
   .Works2 {
@@ -1061,7 +1062,7 @@ p {
     margin: 5%;
     margin-right: 10%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
   }
 
   .Works3 {
@@ -1075,7 +1076,7 @@ p {
     margin: 5%;
     margin-right: 10%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
   }
 
   .Works4 {
@@ -1089,7 +1090,7 @@ p {
     margin: 5%;
     margin-right: 10%;
     padding: 20px;
-    border: 1px solid hwb(223 87% 10%);
+    border: 1px solid #c1c7d0;
   }
 
   .img-1 {
