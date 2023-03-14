@@ -32,13 +32,14 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 portfolio <a name="about-project"></a>
-This pull is created to deploy my portfolio   " application deploy"
+This pull is created to add javascript to my portfolio and make interaction on my menu bars and times 
 This PR updates the responsive desktop design for our website to improve its usability on larger screens. The goal of this update is to provide a better user experience for desktop users and ensure that our website looks great on all devices
 
 ## 🛠 Built With <a name="built-with"></a>
 <ul>
   <li>HTML5</li> 
   <li>CSS3</li>
+  <li>jJavaScript</li>
   <li>flexbox</li>
   <li>CSS Grid</li>
 </ul>
@@ -65,6 +66,9 @@ This PR updates the responsive desktop design for our website to improve its usa
 - Implemented a new layout technique to better optimize the website for desktop screens.
 - Improved the typography and spacing of the website to enhance its visual appeal.
 - I also used CSS media queries to adjust the layout of the website based on the screen size.
+- I Used basic JavaScript syntax.
+- I Used JavaScript to manipulate DOM elements.
+- I Used JavaScript events.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
