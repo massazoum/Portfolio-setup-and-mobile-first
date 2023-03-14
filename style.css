@@ -873,6 +873,7 @@ p {
     position: fixed;
     top: 0;
     opacity: 0.93;
+    z-index: 9999;
   }
 
   .open .toggle {
