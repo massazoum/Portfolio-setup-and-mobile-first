@@ -8,6 +8,6 @@ toggle.addEventListener('click', () => {
 
 menuOptions.forEach(option => {
   option.addEventListener('click', () => {
-    body.classList.remove('open'),
+    body.classList.remove('open');
   });
 });
