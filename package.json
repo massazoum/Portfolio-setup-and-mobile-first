@@ -185,6 +185,8 @@
     "filelist": "^1.0.4",
     "fill-range": "^7.0.1",
     "find-up": "^4.1.0",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.1",
     "flat-cache": "^3.0.4",
     "flatted": "^3.2.7",
     "for-each": "^0.3.3",
