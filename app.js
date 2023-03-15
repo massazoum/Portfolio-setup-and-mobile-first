@@ -3,10 +3,10 @@ const body = document.querySelector('body');
 const menuOptions = document.querySelectorAll('.menu li');
 
 toggle.addEventListener('click', () => {
-  body.classList.toggle('open'),
+  body.classList.toggle('open');
 });
 
-menuOptions.forEach(option => {
+menuOptions.forEach((option) => {
   option.addEventListener('click', () => {
     body.classList.remove('open');
   });
