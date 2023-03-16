@@ -116,38 +116,6 @@ seeBnt4.addEventListener('click', () => {
   document.querySelector('.fontimg2popup1').src = MyProject[3].Image2;
 });
 
-// seeBnt2.addEventListener('click', () => {
-//   popup2.style.display = 'block';
-//   document.querySelector(".textpop").innerHTML = MyProject[1].Name;
-//   document.querySelector(".tonic1popup1-text").innerHTML = MyProject[1].description;
-//   document.querySelector(".liveLink").href=MyProject[1].liveLink;
-//   document.querySelector(".sourceLink").href=MyProject[1].sourceLink;
-//   document.querySelector(".factorypopup1").innerHTML=MyProject[1].factorypopup1;
-//   document.querySelector(".flex1-langpopup1").innerHTML=MyProject[1].flex1langpopup1;
-//   document.querySelector(".flex1-langpopup2").innerHTML=MyProject[1].flex1langpopup2
-// });
-
-// seeBnt3.addEventListener('click', () => {
-//      popup3.style.display = 'block';
-//      document.querySelector(".textpop").innerHTML = MyProject[2].Name;
-//   document.querySelector(".tonic1popup1-text").innerHTML = MyProject[2].description;
-//   document.querySelector(".liveLink").href=MyProject[2].liveLink;
-//   document.querySelector(".sourceLink").href=MyProject[2].sourceLink;
-//   document.querySelector(".factorypopup1").innerHTML=MyProject[2].factorypopup1;
-//   document.querySelector(".flex1-langpopup1").innerHTML=MyProject[2].flex1langpopup1;
-//   document.querySelector(".flex1-langpopup2").innerHTML=MyProject[2].flex1langpopup2
-// });
-
-// seeBnt4.addEventListener('click', () => {
-//   popup4.style.display = 'block';
-//   document.querySelector(".textpop").innerHTML = MyProject[3].Name;
-// document.querySelector(".tonic1popup1-text").innerHTML = MyProject[3].description;
-// document.querySelector(".liveLink").href=MyProject[3].liveLink;
-// document.querySelector(".sourceLink").href=MyProject[3].sourceLink;
-// document.querySelector(".factorypopup1").innerHTML=MyProject[3].factorypopup1;
-// document.querySelector(".flex1-langpopup1").innerHTML=MyProject[3].flex1langpopup1;
-// document.querySelector(".flex1-langpopup2").innerHTML=MyProject[3].flex1langpopup2
-// });
 
 fermer1.addEventListener('click', () => {
   popup1.style.display = 'none';
@@ -164,62 +132,3 @@ fermer3.addEventListener('click', () => {
 fermer4.addEventListener('click', () => {
   popup4.style.display = 'none';
 });
-
-// ##################################################################
-
-// function showproject(){
-//   const popup1 = document.querySelector('.popup1');
-//   const textpop=document.querySelector('.textpop');
-//   // const factorypopup1=document.querySelector('.factorypopup1');
-//   // const flex1langpopup1 = document.querySelector('.flex1-langpopup1');
-//   // const flex1langpopup2 = document.querySelector('.flex1-langpopup1');
-//   // const fontimg1popup1 = document.querySelector('.fontimg1popup1');
-//   // const fontimg2popup1 =document.querySelector('.fontimg2popup1');
-//   // const tonic1popup1text = document.querySelector('.tonic1popup1-text');
-
-//   // const langtech1 = document.querySelector('.languagepopup1');
-//   // // const langtech2 = document.querySelector('.languagepopup1');
-//   // const langtech3 = document.querySelector('.languagepopup1');
-//   // const langtech4 = document.querySelector('.languagepopup1');
-//   // const langtech5 = document.querySelector('.languagepopup1');
-//   // const langtech6 = document.querySelector('.languagepopup1');
-
-// textpop.textContent = MyProject.name;
-// // factorypopup1.textContent = MyProject.factory;
-// // flex1langpopup1.textContent=MyProject.post;
-// // flex1langpopup2.textContent=MyProject.year;
-// // fontimg1popup1.scr=MyProject.image1;
-// // fontimg2popup1.scr=MyProject.image2;
-// // tonic1popup1text.textContent=MyProject.Ptextpopup
-// // langtech1.textContent=MyProject.lang1
-// // langtech2.textContent=MyProject.lang2
-// // langtech3.textContent=MyProject.lang3
-// // langtech4.textContent=MyProject.lang4
-// // langtech5.textContent=MyProject.lang5
-// // langtech6.textContent=MyProject.lang6
-
-// popup1.style.display = "block";
-
-// };
-
-// function hidden(){
-//   const popup1 = document.querySelector('.popup1');
-//   popup1.style.display = "none";
-// }
-
-// const projectButtons = document.querySelector(".see-project1");
-
-// // projectButtons.forEach(button => {
-// //   const projectIndex = button.dataset.index;
-// //   const project =  MyProject[projectIndex];
-
-//   projectButtons.addEventListener("click", () => {
-//     showproject(MyProject);
-//   });
-// // });
-
-// const closeButton = document.querySelector('.fermer1');
-
-// closeButton.addEventListener("click", () => {
-//   hidden();
-// });
