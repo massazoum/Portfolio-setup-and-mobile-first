@@ -11,4 +11,3 @@ menuOptions.forEach((option) => {
     body.classList.remove('open');
   });
 });
-
