@@ -116,7 +116,6 @@ seeBnt4.addEventListener('click', () => {
   document.querySelector('.fontimg2popup1').src = MyProject[3].Image2;
 });
 
-
 fermer1.addEventListener('click', () => {
   popup1.style.display = 'none';
 });
