@@ -69,6 +69,7 @@ This PR updates the responsive desktop design for our website to improve its usa
 - I Used basic JavaScript syntax.
 - I Used JavaScript to manipulate DOM elements.
 - I Used JavaScript events.
+ -I used objects to store and access data.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
