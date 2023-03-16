@@ -25,6 +25,14 @@
     background-color: white;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 70px;
+    z-index: 999;
   }
 
   .fontimg1popup1 {
@@ -32,7 +40,9 @@
   }
 
   .fontimg2popup1 {
-    height: 55vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100vh;
   }
 
   .factorypopup1 {
@@ -111,6 +121,13 @@
     font-style: normal;
   }
 
+  .dashpop1 {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
   .languagespopup1 {
     position: relative;
     display: flex;
@@ -168,7 +185,7 @@
   }
 
   .popup1 {
-    display: none;
+    /* display: none;
     z-index: 9999;
     top: 5px;
     background-color: white;
@@ -177,58 +194,70 @@
     border-radius: 16px;
     position: fixed;
     bottom: 5px;
-    width: 95%;
+    width: 85%;
     height: auto;
+    overflow-y: scroll;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding: 25px; */
+
+    display: none;
+    padding: 20px;
+    border: 1px solid #c1c7d0;
+    top: 0;
+    background-color: rgba(77, 77, 77, 0.836);
+    padding-bottom: 10vh;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+  }
+
+  .popup1::-webkit-scrollbar {
+    display: none; /* set width of the scrollbar */
   }
 
   .popup2 {
     display: none;
     z-index: 9999;
-    top: 5px;
-    background-color: white;
-    left: 2%;
-    border: 1px solid #c1c7d0;
-    border-radius: 16px;
-    position: fixed;
-    bottom: 5px;
-    width: 95%;
-    height: auto;
+  }
+
+  .popup2::-webkit-scrollbar {
+    display: none; /* set width of the scrollbar */
   }
 
   .popup3 {
     display: none;
     z-index: 9999;
-    top: 5px;
-    background-color: white;
-    left: 2%;
-    border: 1px solid #c1c7d0;
-    border-radius: 16px;
-    position: fixed;
-    bottom: 5px;
-    width: 95%;
-    height: auto;
+  }
+
+  .popup3::-webkit-scrollbar {
+    display: none; /* set width of the scrollbar */
   }
 
   .popup4 {
     display: none;
     z-index: 9999;
-    top: 5px;
-    background-color: white;
-    left: 2%;
-    border: 1px solid #c1c7d0;
-    border-radius: 16px;
-    position: fixed;
-    bottom: 5px;
-    width: 95%;
-    height: auto;
+  }
+
+  .popup4::-webkit-scrollbar {
+    display: none; /* set width of the scrollbar */
   }
 
   .toggle1 {
     display: block;
     position: absolute;
     right: 50px;
-    margin-right: 20px;
-    top: 40px;
+    margin-right: 100px;
+    top: 70px;
+  }
+
+  .background-popup {
+    z-index: 999;
+    position: fixed;
+    display: none;
   }
 }
 
@@ -238,9 +267,13 @@
     width: 90%;
     background-color: white;
     background-size: cover;
-    padding: 10px;
+    padding: 20px;
     border-radius: 16px;
     font-family: 'Poppins', sans-serif;
+  }
+
+  .textpop {
+    margin-top: 0;
   }
 
   .Works1popup1 h2 {
@@ -316,8 +349,8 @@
 
   .flex1popup1 {
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin-top: -10px;
+    padding-bottom: 20px;
   }
 
   .languagepopup1 {
@@ -332,7 +365,7 @@
   }
 
   .fontimg1popup1 {
-    height: 30vh;
+    height: 50vh;
   }
 
   .see-projectpopup1 {
@@ -399,6 +432,8 @@
   .dashpop1 {
     margin-right: 10px;
     margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .languagespopup11 {
@@ -412,12 +447,13 @@
     border: 1px solid #c1c7d0;
     top: 0;
     z-index: 999;
-    background-color: #c1c7d0;
+    background-color: rgba(77, 77, 77, 0.836);
     padding-bottom: 10vh;
     position: fixed;
     bottom: 5px;
     width: 95%;
     height: auto;
+    overflow-y: scroll;
   }
 
   .popup2 {
@@ -427,7 +463,7 @@
     border: 1px solid #c1c7d0;
     top: 0;
     z-index: 999;
-    background-color: #c1c7d0;
+    background-color: rgba(77, 77, 77, 0.836);
     padding-bottom: 10vh;
     position: fixed;
     bottom: 5px;
@@ -442,7 +478,7 @@
     border: 1px solid #c1c7d0;
     top: 0;
     z-index: 999;
-    background-color: #c1c7d0;
+    background-color: rgba(77, 77, 77, 0.836);
     padding-bottom: 10vh;
     position: fixed;
     bottom: 5px;
@@ -457,7 +493,7 @@
     border: 1px solid #c1c7d0;
     top: 0;
     z-index: 999;
-    background-color: #c1c7d0;
+    background-color: rgba(77, 77, 77, 0.836);
     padding-bottom: 10vh;
     position: fixed;
     bottom: 5px;
@@ -470,7 +506,7 @@
     position: absolute;
     right: 20px;
     margin-right: 50px;
-    top: 100px;
+    top: 60px;
     z-index: 9999;
   }
 }
