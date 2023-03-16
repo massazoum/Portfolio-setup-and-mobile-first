@@ -15,8 +15,7 @@ const fermer2 = document.querySelector('.fermer2');
 const fermer3 = document.querySelector('.fermer3');
 const fermer4 = document.querySelector('.fermer4');
 
-const backgroundPopup =document.querySelector('.background-popup')
-
+const backgroundPopup = document.querySelector('.background-popup');
 
 const MyProject = [{
   Name: 'Tonic',
@@ -64,9 +63,8 @@ const MyProject = [{
 },
 ];
 
-
 seeBnt1.addEventListener('click', () => {
-  backgroundPopup.style.display='block';
+  backgroundPopup.style.display = 'block';
   popup1.style.display = 'block';
   document.querySelector('.textpop').innerHTML = MyProject[0].Name;
   document.querySelector('.tonic1popup1-text').innerHTML = MyProject[0].description;
@@ -77,11 +75,10 @@ seeBnt1.addEventListener('click', () => {
   document.querySelector('.flex1-langpopup2').innerHTML = MyProject[0].flex1langpopup2;
   document.querySelector('.fontimg1popup1').src = MyProject[0].Image;
   document.querySelector('.fontimg2popup1').src = MyProject[0].Image2;
- 
 });
 
 seeBnt2.addEventListener('click', () => {
-  backgroundPopup.style.display='block';
+  backgroundPopup.style.display = 'block';
   popup1.style.display = 'block';
   document.querySelector('.textpop').innerHTML = MyProject[1].Name;
   document.querySelector('.tonic1popup1-text').innerHTML = MyProject[1].description;
@@ -96,7 +93,7 @@ seeBnt2.addEventListener('click', () => {
 });
 
 seeBnt3.addEventListener('click', () => {
-  backgroundPopup.style.display='block';
+  backgroundPopup.style.display = 'block';
   popup1.style.display = 'block';
   document.querySelector('.textpop').innerHTML = MyProject[2].Name;
   document.querySelector('.tonic1popup1-text').innerHTML = MyProject[2].description;
@@ -111,7 +108,7 @@ seeBnt3.addEventListener('click', () => {
 });
 
 seeBnt4.addEventListener('click', () => {
-  backgroundPopup.style.display='block';
+  backgroundPopup.style.display = 'block';
   popup1.style.display = 'block';
   document.querySelector('.textpop').innerHTML = MyProject[3].Name;
   document.querySelector('.tonic1popup1-text').innerHTML = MyProject[3].description;
@@ -127,20 +124,20 @@ seeBnt4.addEventListener('click', () => {
 
 fermer1.addEventListener('click', () => {
   popup1.style.display = 'none';
-  backgroundPopup.style.display='none';
+  backgroundPopup.style.display = 'none';
 });
 
 fermer2.addEventListener('click', () => {
   popup2.style.display = 'none';
-  backgroundPopup.style.display='none';
+  backgroundPopup.style.display = 'none';
 });
 
 fermer3.addEventListener('click', () => {
   popup3.style.display = 'none';
-  backgroundPopup.style.display='none';
+  backgroundPopup.style.display = 'none';
 });
 
 fermer4.addEventListener('click', () => {
   popup4.style.display = 'none';
-  backgroundPopup.style.display='none';
+  backgroundPopup.style.display = 'none';
 });
