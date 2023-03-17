@@ -1011,6 +1011,18 @@ p {
     border-color: white;
     background: hsl(234, 100%, 69%);
   }
+
+  .error-message {
+    position: relative;
+    height: auto;
+    margin-top: -5%;
+    margin-left: 20px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+    color: #ff4136;
+    letter-spacing: 0.1rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1682,5 +1694,18 @@ p {
     bottom: 8px;
     background: hsl(212, 40%, 8%);
     border-radius: 10px;
+  }
+
+  .error-message {
+    position: relative;
+    height: auto;
+    margin-bottom: 10%;
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+    color: #ff4136;
+    letter-spacing: 0.1rem;
   }
 }
