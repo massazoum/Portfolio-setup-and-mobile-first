@@ -1018,6 +1018,10 @@ p {
     margin-top: -5%;
     margin-left: 20px;
     font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+    color: #ff4136;
+    letter-spacing: 0.1rem;
   }
 }
 
@@ -1693,11 +1697,15 @@ p {
   }
 
   .error-message {
-    position:relative;
+    position: relative;
     height: auto;
     margin-bottom: 10%;
     margin-top: -40px;
     margin-left: 20px;
     font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+    color: #ff4136;
+    letter-spacing: 0.1rem;
   }
 }
