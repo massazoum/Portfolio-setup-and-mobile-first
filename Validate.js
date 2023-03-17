@@ -1,7 +1,7 @@
 // get form elements
 const form = document.querySelector('.form0');
 const emailInput = form.querySelector('.inp-email');
-const submitBtn = form.querySelector('.submit0');t
+const submitBtn = form.querySelector('.submit0');
 
 // add event listener to the form submission
 form.addEventListener('submit', (event) => {
@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) => {
   } else {
     // email is not in lowercase, show error message
     const errorMsg = document.querySelector('.error-message');
-    errorMsg.value = 'Email should be in lowercase.';
+    errorMsg.textContent= 'Email should be in lowercase.';
     errorMsg.style.color = 'red';
     submitBtn.insertAdjacentElement('afterend', errorMsg);
   }

@@ -1011,6 +1011,14 @@ p {
     border-color: white;
     background: hsl(234, 100%, 69%);
   }
+
+  .error-message {
+    position: relative;
+    height: auto;
+    margin-top: -5%;
+    margin-left: 20px;
+    font-size: large;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1682,5 +1690,14 @@ p {
     bottom: 8px;
     background: hsl(212, 40%, 8%);
     border-radius: 10px;
+  }
+
+  .error-message {
+    position:relative;
+    height: auto;
+    margin-bottom: 10%;
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: large;
   }
 }
