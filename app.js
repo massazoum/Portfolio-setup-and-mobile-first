@@ -13,8 +13,7 @@ menuOptions.forEach((option) => {
 });
 //    ----------------------------Local storage----------------------------------------------
 
-// Get references
-// const form = document.querySelector('.form0');
+
 const nameInput = document.querySelector('.inp-name');
 const emailInput = document.querySelector('.inp-email');
 const messageInput = document.querySelector('.inp-text');
