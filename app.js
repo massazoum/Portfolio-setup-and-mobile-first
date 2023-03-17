@@ -13,7 +13,6 @@ menuOptions.forEach((option) => {
 });
 //    ----------------------------Local storage----------------------------------------------
 
-
 const nameInput = document.querySelector('.inp-name');
 const emailInput = document.querySelector('.inp-email');
 const messageInput = document.querySelector('.inp-text');
