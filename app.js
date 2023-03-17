@@ -13,8 +13,8 @@ menuOptions.forEach((option) => {
 });
 //    ----------------------------Local storage----------------------------------------------
 
-// Get references 
-const form = document.querySelector('.form0');
+// Get references
+// const form = document.querySelector('.form0');
 const nameInput = document.querySelector('.inp-name');
 const emailInput = document.querySelector('.inp-email');
 const messageInput = document.querySelector('.inp-text');
@@ -30,20 +30,20 @@ function saveFormData() {
 }
 
 // function to set
-// function loadFormData() {
-//   const savedFormData = localStorage.getItem('formData');
-//   if (savedFormData) {
-//     const formData = JSON.parse(savedFormData);
-//     nameInput.value = formData.name;
-//     emailInput.value = formData.email;
-//     messageInput.value = formData.message;
-//   }
-// }
+function loadFormData() {
+  const savedFormData = localStorage.getItem('formData');
+  if (savedFormData) {
+    const formData = JSON.parse(savedFormData);
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+  }
+}
 
-// // Add event listeners to the input fields
-// nameInput.addEventListener('input', saveFormData);
-// emailInput.addEventListener('input', saveFormData);
-// messageInput.addEventListener('input', saveFormData);
+// Add event listeners to the input fields
+nameInput.addEventListener('input', saveFormData);
+emailInput.addEventListener('input', saveFormData);
+messageInput.addEventListener('input', saveFormData);
 
-// // Calling
-// loadFormData();
+// Calling
+loadFormData();
