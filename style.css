@@ -84,6 +84,7 @@ p {
 }
 
 .languages {
+  display: flex;
   position: relative;
   flex-wrap: wrap;
   padding-bottom: 10px;
@@ -97,8 +98,7 @@ p {
   background-color: #ebebff;
   font-size: 15px;
   color: #0069d9;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 5px;
 }
 
 .div-CONNECT2 {
@@ -326,6 +326,7 @@ p {
 
 .font-write {
   background-color: white;
+  width: 100vw;
 }
 
 @media (min-width: 768px) {
@@ -1565,7 +1566,6 @@ p {
     justify-self: center;
     width: 100%;
     height: auto;
-    margin-top: 0;
   }
 
   .title-form {
