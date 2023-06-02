@@ -84,6 +84,7 @@ p {
 }
 
 .languages {
+  display: flex;
   position: relative;
   flex-wrap: wrap;
   padding-bottom: 10px;
@@ -97,8 +98,7 @@ p {
   background-color: #ebebff;
   font-size: 15px;
   color: #0069d9;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 5px;
 }
 
 .div-CONNECT2 {
@@ -326,16 +326,66 @@ p {
 
 .font-write {
   background-color: white;
+  width: 100vw;
 }
 
 @media (min-width: 768px) {
   .header-desktop {
     display: flex;
     justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0 15px 20px -5px  hsl(234, 100%, 75%);
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    animation: slide-in 2s ease forwards;
+  }
+
+  .header {
+    background-color: #172b4d;
+  }
+
+  .CONNECT a {
+    width: 117px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: hsl(234, 100%, 75%);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    list-style: none;
+    text-decoration: none;
+    transition: 1s;
+  }
+
+  .header-desktop nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+
+  .header-desktop li a:hover {
+    color: rgb(64, 83, 252);
   }
 
   .first-template p {
-    width: 920px;
+    width: 70vw;
     height: 98px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -357,23 +407,6 @@ p {
     width: 60%;
     padding-left: 200px;
     border-bottom-left-radius: 30px;
-  }
-
-  .CONNECT a {
-    width: 117px;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: hsl(234, 100%, 75%);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    list-style: none;
-    text-decoration: none;
-    transition: 1s;
   }
 
   .header-desktop .logo {
@@ -420,7 +453,7 @@ p {
   }
 
   .first-template h1 {
-    width: 920px;
+    width: 70vw;
     height: 122px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -476,22 +509,6 @@ p {
     height: 100%;
   }
 
-  .header-desktop nav ul li a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    text-decoration: none;
-  }
-
   .header-mobile {
     display: none;
   }
@@ -534,7 +551,7 @@ p {
     justify-self: center;
     background-color: white;
     background-size: cover;
-    height: 65vh;
+    height: auto;
     width: 80%;
     padding: 20px;
     border: 1px solid #c1c7d0;
@@ -549,7 +566,7 @@ p {
     justify-self: center;
     background-color: white;
     background-size: cover;
-    height: 65vh;
+    height: auto;
     width: 80%;
     margin: 5%;
     border-radius: 16px;
@@ -564,7 +581,7 @@ p {
     justify-self: center;
     background-color: white;
     background-size: cover;
-    height: 65vh;
+    height: auto;
     width: 80%;
     margin: 5%;
     padding: 20px;
@@ -580,7 +597,7 @@ p {
     justify-content: space-between;
     background-color: white;
     background-size: cover;
-    height: 65vh;
+    height: auto;
     width: 80%;
     margin: 5%;
     padding: 20px;
@@ -594,6 +611,11 @@ p {
     height: 65vh;
     border-radius: 10px;
     margin-left: 20px;
+    transition: 0.5s;
+  }
+
+  .img-1:hover {
+    box-shadow: 3px 3px 3px 3px hsla(223, 88%, 59%, 0.697);
   }
 
   .tonic1 {
@@ -1565,7 +1587,6 @@ p {
     justify-self: center;
     width: 100%;
     height: auto;
-    margin-top: 0;
   }
 
   .title-form {
